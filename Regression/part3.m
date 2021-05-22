@@ -32,10 +32,6 @@ fprintf('Running warmUpExercise ... \n');
 fprintf('5x5 Identity Matrix: \n');
 warmUpExercise()
 
-fprintf('Program paused. Press enter to continue.\n');
-pause;
-
-
 %% ======================= Part 2: Plotting =======================
 fprintf('Plotting Data ...\n')
 data = load('ex1data1.txt');
@@ -45,9 +41,6 @@ m = length(y); % number of training examples
 % Plot Data
 % Note: You have to complete the code in plotData.m
 plotData(X, y);
-
-fprintf('Program paused. Press enter to continue.\n');
-pause;
 
 %% =================== Part 3: Cost and Gradient descent ===================
 
